@@ -14,7 +14,7 @@ node{
     {
        withCredentials([string(credentialsId: 'DockerHubPassword', variable: 'DHPWD')]) 
         {
-            sh "docker login -u "rockysam619" -p "iknewit2@""
+            sh "docker login -u rockysam619 -p iknewit2@"
         }
         sh 'docker push rockysam619/job1_web2.0'
         

@@ -28,7 +28,7 @@ node{
        // echo | set /p="iknewit2@" | docker login --rockysam619 foo --password-stdin
              //sh 'sudo docker push upasanatestdocker/mysql'
              //sh 'sudo docker push upasanatestdocker/job1_web1.0'
-             sh 'sudo docker push onlineshop1_web/1.0'
+             sh 'sudo docker push rockysam619/onlineshop1_web'
             // sh 'docker push upasanatestdocker/mysql'
           
     }
